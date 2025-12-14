@@ -1,0 +1,7 @@
+npm install -g expo-cli
+expo install react-native-safe-area-context
+expo install expo-network
+
+
+npx expo start (front)
+python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload(back) 
